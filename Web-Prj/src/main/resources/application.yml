@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Web Engineering Project
+
+server:
+  port: 8081
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/webengineeringproject
+      database: webengineeringproject
