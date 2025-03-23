@@ -18,7 +18,8 @@ public class User {
     private String username;
     private String email;
     private String password;
-    private String profilePictureUrl;
+    private String profilePictureUrl; // Stores the file download URL (or path)
+    private UserPreferences preferences;
     private List<String> teamIds;
     private List<String> projectIds;
     private List<String> roles;
