@@ -9,5 +9,4 @@ import lombok.*;
 public class ProjectSettings {
     private boolean allowGuestUsers;
     private String defaultStatus;
-
 }
