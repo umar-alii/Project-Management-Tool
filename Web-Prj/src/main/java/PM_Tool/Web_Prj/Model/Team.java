@@ -17,8 +17,7 @@ public class Team {
 
     private String name;
     private String description;
-    private List<String> memberIds;
-    private List<String> projectIds;
-    private String createdBy;
-    private List<TeamInvitation> invitations;
+    private String ownerId; // userId of creator/owner
+    private List<TeamMember> members; // list of team members with roles/permissions
+    private List<String> invitedEmails; // pending invitations by email
 }
