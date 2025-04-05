@@ -12,7 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-class KanbanColumn {
+public class KanbanColumn {
     private String status; // TODO, IN_PROGRESS, DONE
     private List<TaskListItem> tasks;
 }
