@@ -1,24 +1,10 @@
 spring:
   application:
     name: Web Engineering Project
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/WE
+      database: PM-Tool
 
 server:
   port: 8081
-
-  data:
-    mongodb:
-      uri: mongodb://localhost:27017/webengineeringproject
-      database: webengineeringproject
-
-
-  mail:
-    host: smtp.gmail.com
-    port: 587
-    username: umarrali.pk@gmail.com
-    password: your_app_password
-    properties:
-      mail:
-        smtp:
-          auth: true
-          starttls:
-            enable: true

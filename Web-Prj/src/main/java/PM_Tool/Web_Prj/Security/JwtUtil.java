@@ -7,8 +7,8 @@ import java.util.Date;
 
 @Component
 public class JwtUtil {
-    private final String secretKey = "yourSecretKey"; // Change this to your secret key
-    private final long expirationMs = 3600000; // 1 hour in milliseconds
+    private final String secretKey = "zVeOlo8EAsVziI5dyG+X0vsL/onDagF+rBWgqqXR24syxrxwsqRlm1jQKXp26MMS98YfFvNAm1CsM+g9rv7ymg==";
+    private final long expirationMs = 3600000; //
 
     public String generateToken(String email) {
         return Jwts.builder()
