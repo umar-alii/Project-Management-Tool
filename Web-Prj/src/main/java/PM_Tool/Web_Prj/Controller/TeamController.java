@@ -1,6 +1,7 @@
-package PM_Tool.Web_Prj.Service;
+package PM_Tool.Web_Prj.Controller;
 
 
+import PM_Tool.Web_Prj.Service.TeamService;
 import PM_Tool.Web_Prj.payload.InviteUserRequest;
 import PM_Tool.Web_Prj.payload.TeamRequest;
 import PM_Tool.Web_Prj.payload.TeamResponse;
